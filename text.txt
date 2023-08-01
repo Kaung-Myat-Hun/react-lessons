@@ -1,0 +1,94 @@
+npm install 
+
+npm run dev
+
+React (SPA >> single page application )
+component base 
+react project >> main.jsx (index.jsx >>> CRA )
+
+html 
+h1 >> tag 
+react >> h1 input component
+
+component >> button 
+form >> login // signup >> contact 
+input 
+email 
+pass 
+age 
+number
+button 
+router
+
+JSX ( javascript XML ~= HTML ) >>> return ( root node )
+react syntax
+  <> React.Fragment </>
+div
+
+React Syntax ????? 
+JSX <<<< 
+HTML CSS JS 
+component create
+
+js es6 modules >>>> export import
+
+React dom
+
+what is React?
+
+SPA (single page application)
+
+uppercase
+Capitalize 
+Hello 
+hello
+lowercase
+
+export default >>>> import (as u like)
+export 
+
+React (frontend lib) SPA 
+Next JS (React Framework) hydration // CSR SSR SSG 
+node js >>> js api ( javascript runtime ) {browser} 
+
+component 2 
+Class                              functional
+props >>> properties                ===
+
+Props >>> 
+parent to child ==> data
+data >>>> child 
+child !>>> parent 
+
+component ?? props
+
+child >>> object {
+  parent.props(key) : parent.vaule
+} 
+
+jsx >>> Js Expression {}
+
+state 
+
+Class >> state (how React work) 
+functional >> stateless component // presentational component // show 
+React version 17 React Hook >>>>> functional component state 
+React version 17 functional 
+
+state 
+Class 
+
+State >> အခြေအနေ 
+props data pass not chages value
+state not data pass value <<< initial val >> update value 
+
+state = object 
+setState( state , callback func )
+
+onclick= { function Name }
+
+-1 , +5 this.setState({
+  for loop () {
+    +1 
+  }
+})
