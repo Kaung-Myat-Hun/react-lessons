@@ -4,8 +4,6 @@ import App from './App.jsx' // component button.jsx form jsx
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <App />,
 )
 

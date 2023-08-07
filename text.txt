@@ -92,3 +92,62 @@ onclick= { function Name }
     +1 
   }
 })
+
+
+setState >>> prevState
+
+async ( p ) => p
+
+
+component >> 
+component lifecycle 
+phase >> 3 
+mounting  >>> component >>>> render (only one time )
+coponentDidMount()
+updating  >>> conponent > state change >> update()
+componentDidUpdate()
+unmounting >> conponent >> dom <<< remove 
+conponneWillUnmount()
+
+? : (ternary) && (and // short circut)
+
+unmounting >>>> {
+  component >> dom clear ( remove )
+  this (event // function )
+}
+
+react HOOK 
+useEffect () << functional hook (component lifecycle)
+
+api fetch >> 
+
+browser data >> 
+
+axios >> 
+
+list rendering >> array >>> render array.map()
+key props >> {
+  key >>> list (same)
+}
+condition render
+
+
+form handling
+
+event handler 
+onClick {}
+onChange()
+onSubmit()
+
+state()
+
+React component >> controlled component ??? uncontrolled component
+React controlled component 
+
+todo list 
+{
+  input 
+  2state 
+  input // array 
+  list render 
+} /// homework
