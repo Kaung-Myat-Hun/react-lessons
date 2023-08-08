@@ -144,6 +144,49 @@ state()
 React component >> controlled component ??? uncontrolled component
 React controlled component 
 
+
+prev >>>> merge (functional) setState (prevState => )
+
+class functional >>> 17 (react hook )
+state (this.state // this.setState )
+         useState() // 
+clm   useEffect() // 
+context useContext()
+
+true && () (short circut)
+? : (if else) <<< ternary operator
+
+this >>>> javascript 
+this (object) ()
+javascript es6 
+
+this >>> () => {}
+
+binding
+
+styling css
+inline html style = ""
+background-color 
+backgroundColor
+external css
+module >>> object.key << dot notation /// [""] <<< bracket notation
+
+v dom 
+javascript dom  >> 
+
+apple 
+orange 
+peach 
+mango
+new 
+new 
+new
+
+v dom 
+actual dom 
+list 
+React.createElement()
+
 todo list 
 {
   input 

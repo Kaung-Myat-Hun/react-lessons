@@ -5,7 +5,8 @@ class FormHandling extends Component {
     super(props)
   
     this.state = {
-      input : ""
+      input : "",
+      input2 : ""
     }
   }
   changeHandler=(e)=>{
@@ -14,12 +15,21 @@ class FormHandling extends Component {
       input : e.target.value
     })
   }
+  changeHandler2= (e) =>{
+    this.setState({
+      input2: e.target.value
+    })
+  }
   render() {
     return (
       <div>
-        <input type="text" placeholder='enter text' value={this.state.input} 
+        <input type="text" placeholder='enter first name' value={this.state.input} 
         onChange={this.changeHandler} />
-        <h1>Input Data : {this.state.input}</h1>
+        <input type="text" placeholder='enter last name' value={this.state.input2} 
+        onChange={this.changeHandler2} />
+        <h1>first name : {this.state.input}</h1> 
+        <br />
+        <h1>last name : {this.state.input2}</h1>
       </div>
     )
   }
