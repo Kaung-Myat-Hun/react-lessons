@@ -22,10 +22,10 @@ class Apifetch extends Component {
     return (
       <div>
         <h1>Api fetching</h1>
-        {this.state.users.map((user,idx)=>(
-          <div key={idx}>
+        {this.state.users.map((user,index)=>( // index , array [0]
+          <div key={index}>
             <h3>{user.name}</h3>
-            <p>{user.email}</p>
+            <p>{user.email}</p> <br />
           </div>
         ))}
       </div>

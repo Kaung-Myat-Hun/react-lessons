@@ -193,4 +193,42 @@ todo list
   2state 
   input // array 
   list render 
+  styling 
 } /// homework
+
+todo app 
+
+array << state
+string  << state
+
+form <<< onSubmit
+input <<< state string onChange
+button <<<< onClick 
+form
+
+render (array) <<< array && there is no todos
+
+react 
+component >>> 2 
+func(stateless)<<< state //presentational component     class(state component) 
+                                                        side effect 
+functional 
+state >>> react Hook 
+useState <<< 
+react router 
+useEffect <<< clc 
+useContext <<< context api 
+useReducer <<< 
+
+useState()
+
+spa >> (single page application) 
+router >>> 
+setup 
+
+
+BrowserRouter >>> root node အုပ်
+Routes 
+Route 
+
+route >>> homework #
