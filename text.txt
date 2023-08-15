@@ -232,3 +232,19 @@ Routes
 Route 
 
 route >>> homework #
+
+
+useEffect() << clc unmounting
+
+[] << empty array 
+initial state >>> 
+async ()=> {
+  setState(data) >>> update 
+  for(){
+
+  }
+} <<< state udate  << 
+
+1000 api // free
+
+context api 

@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import Lifecycle from './Lifecycle'
+import UseEffectComponent from './functional/UseEffect'
 class ClassComponent extends Component {
   constructor(props) {
     super(props)
@@ -40,7 +41,7 @@ class ClassComponent extends Component {
             show : !this.state.show
           })
         }}>Toggle </button>
-        {this.state.show && <Lifecycle></Lifecycle>}
+        {this.state.show && <UseEffectComponent/> }
       </>
     )
   }

@@ -13,6 +13,7 @@ import Styling from './components/Styling'
 import TodoList from './components/TodoList'
 import FunctionalComponent from './components/FunctionalComponent'
 import Todo from './components/functional/Todo'
+import UseEffectComponent from './components/functional/UseEffect'
 import {Routes, Route} from 'react-router-dom'
 function App() {
 
@@ -23,9 +24,10 @@ function App() {
       <br />
       <a href="/next-route">Todo</a>
     </div>
+    
       <Routes>
         <Route path="/" element={<ClassComponent/>}></Route>
-        <Route path="/next-route" element={<Todo/>}></Route>
+        <Route path="/next-route" element={<UseEffectComponent />}></Route>
         <Route path="/next-one" element={<FunctionalComponent/>}></Route>
 
         <Route path='*' element={<h1>404 Error </h1>}></Route>
