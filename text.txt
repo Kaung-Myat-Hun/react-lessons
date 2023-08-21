@@ -247,4 +247,32 @@ async ()=> {
 
 1000 api // free
 
-context api 
+context api <<< 
+
+context 
+
+phase 
+craetContext >>> React
+create >>> context >>> done > 
+provide >>> context >>> done >
+
+<Context.provider> >>> props >> value
+  ComponentA
+</Context.provider>
+
+consume >>> context >>>>
+<Context.comsumer>
+  {(name)=>()}
+</Context.comsumer>
+
+global var
+
+React hook 
+useContext()
+
+
+add to cart 
+
+add to cart >> homework
+
+useReducer() <<< beginner 
