@@ -319,3 +319,4 @@ cart >>> {
 }
 
 math.random() >>>> 0 >>>> 1
+quantity >>> price 
