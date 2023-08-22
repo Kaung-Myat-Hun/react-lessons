@@ -18,6 +18,7 @@ import ComponentA from "./components/context/ComponentA";
 import { createContext, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Cart from "./components/cart/Cart";
+import Reduce from "./components/reducer/Reduce";
 export const CartContext = createContext();
 
 
@@ -25,13 +26,14 @@ function App() {
   const [item, setItem] = useState([])
   return (
     <div>
-      <h3>{item.length}</h3>
+      {/* <h3>{item.length}</h3>
       <CartContext.Provider value={{item, setItem}}>
         <Cart></Cart>
       </CartContext.Provider>
       {item.map((item, index) => (
         <h3 key={index}>{item.name}</h3>
-      ))}
+      ))} */}
+      <Reduce></Reduce>
     </div>
   );
 }

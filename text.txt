@@ -276,3 +276,37 @@ add to cart
 add to cart >> homework
 
 useReducer() <<< beginner 
+
+next js >>>> api >>> node js 
+express js 
+
+next js >> 
+node js >>> 
+express
+
+long term target >>>>>> 
+next js >>> 
+
+react <<< beginner friendly 
+
+senior lv >>> vue js >> angular >> httpinterceptor >>> httpclient << rxjs
+                                Signal
+ >> react 
+
+reducer = (state , action ) =>{
+  return state <<< change >> add // remove
+}
+
+
+const [ state , dispatch() ] = useReducer(reducer , initial)
+
+state , setState 
+
+type: <<<< 
+payload: <<<< 
+
+state 
+effect
+context
+reducer 
+
