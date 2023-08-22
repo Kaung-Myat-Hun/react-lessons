@@ -310,3 +310,12 @@ effect
 context
 reducer 
 
+
+
+cart >>> {
+  name : adfasdf,
+  qanty : 1,
+  price: 100,
+}
+
+math.random() >>>> 0 >>>> 1

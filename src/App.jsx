@@ -1,39 +1,31 @@
 import "./App.css";
-// import React, { useEffect } from 'react'
-import Hi from "./components/Hello";
-import { Const } from "./components/Const";
-import Greet from "./components/Greet";
-import ClassComponent from "./components/ClassComponent";
-import Lifecycle from "./components/Lifecycle";
-import Apifetch from "./components/Apifetch";
-import Listrender from "./components/Listrender";
-import FormHandling from "./components/FormHandling";
-import Conditoin from "./components/Conditoin";
-import Styling from "./components/Styling";
-import TodoList from "./components/TodoList";
-import FunctionalComponent from "./components/FunctionalComponent";
-import Todo from "./components/functional/Todo";
-import UseEffectComponent from "./components/functional/UseEffect";
-import ComponentA from "./components/context/ComponentA";
-import { createContext, useState } from "react";
-import { Routes, Route } from "react-router-dom";
-import Cart from "./components/cart/Cart";
-import Reduce from "./components/reducer/Reduce";
+import AddToCart from "./components/AddToCart/cart";
+import { createContext , useReducer } from "react";
+import { itemData } from "./components/AddToCart/items/data";
+
 export const CartContext = createContext();
-
-
 function App() {
-  const [item, setItem] = useState([])
+  let initialCart = []
+  const reducer = (state , action) =>{
+    switch (action.type) {
+      case "add":{
+        return [...state, action.payload]
+      }
+      case "remove": {
+        const filteredData = state.filter((item) => item !== action.payload)
+        return filteredData;
+      }
+      case "clear":{
+        return initialCart;
+      }
+    }
+  }
+  const [cart, dispatch] = useReducer(reducer, initialCart)
   return (
     <div>
-      {/* <h3>{item.length}</h3>
-      <CartContext.Provider value={{item, setItem}}>
-        <Cart></Cart>
+      <CartContext.Provider value={{itemData, cart , dispatch}}>
+        <AddToCart />
       </CartContext.Provider>
-      {item.map((item, index) => (
-        <h3 key={index}>{item.name}</h3>
-      ))} */}
-      <Reduce></Reduce>
     </div>
   );
 }
